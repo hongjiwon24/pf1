@@ -1,0 +1,96 @@
+aside {
+  background-color: #324242;
+  position: fixed;
+  right: 10px;
+  top: calc(50% - 145.5px);
+}
+
+aside h2 {
+  display: none;
+}
+
+aside ul {
+  
+}
+
+aside ul li{
+  text-align: center;
+  height: 72px;
+  width: 80px;
+}
+
+aside ul li a {
+  color: white;
+  font-size: 12px;
+  /* display: block; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+aside ul li a::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+aside ul li:nth-child(1) a::before {
+  background-image: url(../img/svg/image-solid.svg);
+}
+
+aside ul li:nth-child(2) a::before {
+  background-image: url(../img/svg/spinner-solid.svg);
+  animation-name: spinner;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  transform-origin: 50% 50%;
+}
+
+@keyframes spinner {
+  0%{
+    transform: rotate(0deg)
+  }
+  100%{
+    transform: rotate(360deg)
+ }
+}
+
+aside ul li:nth-child(3) a::before {
+  background-image: url(../img/svg/book-solid.svg);
+}
+
+aside ul li:nth-child(4) a::before {
+  background-image: url(../img/svg/bolt-lightning-solid.svg);
+}
+
+aside ul li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+/* hover */
+aside ul li:hover a {
+  color: #32c8c9;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

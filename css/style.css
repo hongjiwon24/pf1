@@ -1,0 +1,106 @@
+/* 구글폰트 */
+body{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  /* 레이아웃 스타일링 */
+.wrap{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+}
+  
+/* 텍스트 스타일링 */
+.h1{
+  font-size: 80px;
+}
+.h2{
+  font-size: 52px;
+}
+.h3{
+  font-size: 35px;
+}
+.h4{
+  font-size: 25px;
+}
+.h5{
+  font-size: 20px;
+}
+.h6{
+  font-size: 18px;
+ }
+.p{
+  font-size: 18px;
+}
+.m{
+  font-size: 16px;
+}
+.sm{
+  font-size: 14px;
+}
+.xs{
+  font-size: 12px;
+}
+
+.white{
+  color: white;
+}
+.gray{
+  color: #919294;
+}
+.black{
+  color: #000;
+}
+/* 버튼 */
+
+.btn16{
+  font-size: 14px;
+}
+
+.more{
+  border: 1px solid #fff;
+  line-height: 1;
+  padding: 17px 28px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.more:hover{
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.more::after{
+  content: "+";
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: 0.5s;
+  position: relative;
+  left: 0px;
+}
+
+.more:hover::after{
+  left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
