@@ -1,7 +1,7 @@
 작품명 : simplydesign 디자인 클론코딩
 원본사이트 : https://simplydesign.kr/
 
-# simplydesign
+:---: # simplydesign
 디자인 클론코딩 / 반응형 웹 랜딩페이지
 ![image](https://github.com/user-attachments/assets/b2956261-f4a5-40ec-8c9f-32ce84afd246)
 
